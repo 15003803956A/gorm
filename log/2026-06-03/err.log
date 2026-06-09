@@ -1,0 +1,16 @@
+[myApp] 2026-06-03 09:21:19	ERROR	gorm/5.单表模型.go:22	表结构迁移失败:Error 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'int64 DEFAULT 18,`email` varchar(255) NOT NULL,`created_at` datetime NOT NULL,PR' at line 1
+[myApp] 2026-06-03 09:21:36	ERROR	gorm/5.单表模型.go:22	表结构迁移失败:Error 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'int64 DEFAULT 18,`email` varchar(255) NOT NULL,`created_at` datetime NOT NULL,PR' at line 1
+[myApp] 2026-06-03 09:21:47	ERROR	gorm/5.单表模型.go:22	表结构迁移失败:Error 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'int32 DEFAULT 18,`email` varchar(255) NOT NULL,`created_at` datetime NOT NULL,PR' at line 1
+[myApp] 2026-06-03 09:34:52	ERROR	gorm/5.单表模型.go:22	表结构迁移失败:Error 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'current_timeTamp,PRIMARY KEY (`id`))' at line 1
+[myApp] 2026-06-03 09:35:04	ERROR	gorm/5.单表模型.go:22	表结构迁移失败:Error 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'current_TimeTamp,PRIMARY KEY (`id`))' at line 1
+[myApp] 2026-06-03 09:46:22	ERROR	gorm/6.插入.go:23	Error 1062 (23000): Duplicate entry '' for key 'user_models.uni_user_models_name'
+[myApp] 2026-06-03 09:47:41	ERROR	gorm/6.插入.go:24	Error 1062 (23000): Duplicate entry '' for key 'user_models.uni_user_models_name'
+[myApp] 2026-06-03 15:00:59	ERROR	gorm/6.插入.go:40	Error 1062 (23000): Duplicate entry '光头强' for key 'user_models.uni_user_models_name'
+[myApp] 2026-06-03 15:06:05	ERROR	gorm/6.插入.go:40	Error 1062 (23000): Duplicate entry '光头强' for key 'user_models.uni_user_models_name'
+[myApp] 2026-06-03 15:07:38	ERROR	gorm/6.插入.go:40	Error 1062 (23000): Duplicate entry '光头强' for key 'user_models.uni_user_models_name'
+[myApp] 2026-06-03 15:20:16	ERROR	gorm/6.插入.go:58	Error 1062 (23000): Duplicate entry '兴达1' for key 'user_models.uni_user_models_name'
+[myApp] 2026-06-03 15:20:59	ERROR	gorm/6.插入.go:58	xxx
+[myApp] 2026-06-03 15:21:15	ERROR	gorm/6.插入.go:58	Error 1062 (23000): Duplicate entry '兴达2' for key 'user_models.uni_user_models_name'
+[myApp] 2026-06-03 16:30:01	ERROR	gorm/7.单表查询.go:51	查询为空:	{"error": "record not found"}
+[myApp] 2026-06-03 16:30:50	ERROR	gorm/7.单表查询.go:51	查询为空:record not found
+[myApp] 2026-06-03 21:11:15	ERROR	gorm/6.插入.go:100	Error 1062 (23000): Duplicate entry '杨栋旭' for key 'user_models.uni_user_models_name'

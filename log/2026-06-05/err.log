@@ -1,0 +1,17 @@
+[myApp] 2026-06-05 08:55:33	ERROR	gorm/5.单表模型.go:18	表结构迁移失败:Error 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'int32,`email` varchar(255))' at line 1
+[myApp] 2026-06-05 09:28:46	ERROR	gorm/5.单表模型.go:18	表结构迁移失败:Error 1439 (42000): Display width out of range for column 'age' (max = 255)
+[myApp] 2026-06-05 09:29:10	ERROR	gorm/5.单表模型.go:18	表结构迁移失败:Error 1439 (42000): Display width out of range for column 'age' (max = 255)
+[myApp] 2026-06-05 09:29:37	ERROR	gorm/5.单表模型.go:18	表结构迁移失败:Error 1439 (42000): Display width out of range for column 'age' (max = 255)
+[myApp] 2026-06-05 10:25:12	ERROR	utils/init.go:19	Error 1049 (42000): Unknown database 'gorm_db_new'
+[myApp] 2026-06-05 17:26:48	ERROR	gorm/5.单表模型.go:21	invalid field found for struct gorm/models.User's field Company1: define a valid foreign key for relations or implement the Valuer/Scanner interface
+[myApp] 2026-06-05 17:31:57	ERROR	gorm/11.belongsto.go:21	invalid field found for struct gorm/models.User's field Company: define a valid foreign key for relations or implement the Valuer/Scanner interface
+[myApp] 2026-06-05 17:42:15	ERROR	gorm/11.belongsto.go:21	Error 1822 (HY000): Failed to add the foreign key constraint. Missing index for constraint 'fk_users_company' in the referenced table 'companies'
+[myApp] 2026-06-05 17:45:25	ERROR	gorm/11.belongsto.go:21	Error 1822 (HY000): Failed to add the foreign key constraint. Missing index for constraint 'fk_users_company' in the referenced table 'companies'
+[myApp] 2026-06-05 17:47:52	ERROR	gorm/11.belongsto.go:21	Error 1822 (HY000): Failed to add the foreign key constraint. Missing index for constraint 'fk_users_company' in the referenced table 'companies'
+[myApp] 2026-06-05 17:48:08	ERROR	gorm/11.belongsto.go:21	Error 1822 (HY000): Failed to add the foreign key constraint. Missing index for constraint 'fk_users_company' in the referenced table 'companies'
+[myApp] 2026-06-05 17:49:18	ERROR	gorm/11.belongsto.go:21	Error 1822 (HY000): Failed to add the foreign key constraint. Missing index for constraint 'fk_users_company' in the referenced table 'companies'
+[myApp] 2026-06-05 17:51:09	ERROR	gorm/11.belongsto.go:21	Error 1822 (HY000): Failed to add the foreign key constraint. Missing index for constraint 'fk_users_company' in the referenced table 'companies'
+[myApp] 2026-06-05 19:34:17	ERROR	gorm/11.belongsto.go:21	Error 1822 (HY000): Failed to add the foreign key constraint. Missing index for constraint 'fk_users_company' in the referenced table 'companies'
+[myApp] 2026-06-05 19:36:32	ERROR	gorm/11.belongsto.go:21	Error 1822 (HY000): Failed to add the foreign key constraint. Missing index for constraint 'fk_users_company' in the referenced table 'companies'
+[myApp] 2026-06-05 19:44:16	ERROR	gorm/11.belongsto.go:21	invalid field found for struct gorm/models.User's field Company: define a valid foreign key for relations or implement the Valuer/Scanner interface
+[myApp] 2026-06-05 19:55:31	ERROR	gorm/11.belongsto.go:21	invalid field found for struct gorm/models.User's field Company: define a valid foreign key for relations or implement the Valuer/Scanner interface
